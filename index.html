@@ -14,24 +14,71 @@
     <footer>
       <!-- Логотип + iмiдж -->
       <!-- Iмідж -->
-      <img scr="" alt="the girl and bananas" width="349" />
+      <img src="./images/gerl-mob@1x.png" alt="the girl and bananas" width="335" />
       <!-- Логотип -->
-      <a href="/">Логотип сайту</a>
-      <a href="./index.html">fresh harvest box </a>
+      <a href="">
+          <svg class="logo-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg> 
+          <p class="logo">fresh harvest box</p>
+      </a>
+
       <!-- Навігація по сайту -->
       <nav>
-        <ul>
-          <li><a href="#How It Works">How It Works</a></li>
+        <ul class="list">
+          <!-- ??? Як записати "#HowItWorks", з пробілами  валідатор видає: error ? -->
+          <li><a href="#HowItWorks">How It Works</a></li>
           <li><a href="#Fruits">Fruits</a></li>
           <li><a href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
+
       <!-- Посилання на соцмережі -->
-      <ul>
-        <li><a href="">Facebook</a></li>
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Youtube</a></li>
-      </ul>
+      <ul class="mobile-socials list">
+
+        <li class="kind-social-icon">
+          <a
+            class="social-link-icon"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener norefer"
+            aria-label="Facebook icon"
+          > 
+                                 <!-- for mobile w=40 h=40 -->
+            <svg class="social-icon" width="44" height="44">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="kind-social-icon">
+          <a
+            class="social-link-icon"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener norefer"
+            aria-label="Instagram icon"
+          >
+            <svg class="social-icon" width="44" height="44">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="kind-social-icon">
+          <a
+            class="social-link-icon"
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener norefer"
+            aria-label="Facebook icon"
+          >
+            <svg class="social-icon" width="44" height="44">
+              <use href="./images/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+
       <!-- Контакти компанії -->
       <address>
         <a href="+380684439426">+380 (68) 443-94-26</a>

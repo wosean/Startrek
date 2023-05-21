@@ -1,0 +1,13 @@
+/* delete point in UL */
+.list {
+    list-style: none;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}

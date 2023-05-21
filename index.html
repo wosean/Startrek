@@ -9,19 +9,31 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+
+
     <!-- === FOOTER === -->
     <!-- Підвал сторінки -->
     <footer class="footer cont-footer">
       <div class="footer-container container flex-footer" >
         <!-- Логотип + iмiдж -->
         <!-- Iмідж -->
-        <img src="./images/gerl-mob@1x.png" alt="the girl and bananas" width="335" />
+            <img class="img"
+              srcset="
+                ./images/gerl-mob@1x.png,
+                ./images/gerl-mob@1x.png                
+              "
+              src="./images/gerl-mob@1x.png"
+              alt="the girl and bananas"
+              width="335"
+              height="172"
+            />
+
         <!-- Логотип -->
-      <a href="">
+      <a class=logotype-icon href="">
           <svg class="logo-icon" width="16" height="16">
             <use href="./images/icons.svg#icon-logo"></use>
           </svg> 
-          <p class="logo">fresh harvest box</p>
+          <p class="logotype">fresh harvest box</p>
       </a>
 
       <!-- Навігація по сайту -->
@@ -121,5 +133,5 @@
 </html>
 
             
-1678 Pioneer Rd, Salt Lake City, UT 84104, США
-https://goo.gl/maps/1kb9skpQopgPybis5
+<!-- 1678 Pioneer Rd, Salt Lake City, UT 84104, USA
+https://goo.gl/maps/1kb9skpQopgPybis5 -->

@@ -3,11 +3,142 @@
     list-style: none;
 }
 
-.logo {
-  text-transform: uppercase;
-}
-
 body {
   font-family: sans-serif;
   line-height: 1.5;
 }
+
+.img{
+  width: 335px;
+  height: 172px;
+  
+  /* background: url(front-view-stunning-ginger-girl-with-bananas-studio-shot-happy-nude-woman-holding-tropical-fruits-pink-background.jpg); */
+  border-radius: 100px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.logotype-icon{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 156px;
+  height: 18px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.logo-icon {
+}
+
+.logotype {
+  width: 132px;
+  height: 18px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #AE1332;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.nav {
+  /* display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px; */
+
+  /* position: absolute;
+  width: 208px;
+  height: 18px;
+  left: 84px;
+  top: 314px; */
+}
+
+.nav-l {
+   font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+  
+
+    letter-spacing: -0.04em;
+  
+    color: #AE1332;
+
+}
+
+
+.mobile-socials {
+
+}
+
+.kind-social-icon{
+
+}
+
+.social-link-icon{
+
+}
+
+.social-icon{
+
+}
+.contacts section{}
+
+.contacts-address{}
+
+.contacts-list{
+
+}
+
+.contacts-item{}
+
+.contacts-link{
+  /* position: absolute; */
+    width: 143px;
+    height: 18px;
+    left: 116px;
+    top: 460px;
+  
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+  
+    text-transform: uppercase;
+  
+    color: #AE1332;
+}
+
+.contacts-icon{}

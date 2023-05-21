@@ -11,11 +11,12 @@
   <body>
     <!-- === FOOTER === -->
     <!-- Підвал сторінки -->
-    <footer>
-      <!-- Логотип + iмiдж -->
-      <!-- Iмідж -->
-      <img src="./images/gerl-mob@1x.png" alt="the girl and bananas" width="335" />
-      <!-- Логотип -->
+    <footer class="footer cont-footer">
+      <div class="footer-container container flex-footer" >
+        <!-- Логотип + iмiдж -->
+        <!-- Iмідж -->
+        <img src="./images/gerl-mob@1x.png" alt="the girl and bananas" width="335" />
+        <!-- Логотип -->
       <a href="">
           <svg class="logo-icon" width="16" height="16">
             <use href="./images/icons.svg#icon-logo"></use>
@@ -24,12 +25,12 @@
       </a>
 
       <!-- Навігація по сайту -->
-      <nav>
+      <nav class="nav">
         <ul class="list">
           <!-- ??? Як записати "#HowItWorks", з пробілами  валідатор видає: error ? -->
-          <li><a href="#HowItWorks">How It Works</a></li>
-          <li><a href="#Fruits">Fruits</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+          <li><a class="nav-l link" href="#how">How It Works</a></li>
+          <li><a class="nav-l link" href="#fruits">Fruits</a></li>
+          <li><a class="nav-l link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
 
@@ -79,15 +80,16 @@
           </a>
         </li>
 
-      <!-- Контакти компанії -->
-      <address>
-        <a href="+380684439426">+380 (68) 443-94-26</a>
+      <!-- Контакти компанії ??? -->
+      <address class="address">
+        <a class="link address-link" href="+380684439426">+380 (68) 443-94-26</a>
       </address>
       <address>
         1678 S. Pioneer Road <br />
         Salt Lake City <br />
         UT 84104
       </address>
+      </div>
     </footer>
   </body>
 </html>

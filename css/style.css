@@ -150,7 +150,8 @@ body {
 
 
 .mobile-socials {
-    padding: 10px;
+
+    /* padding: 10px;
       margin: 0;
       list-style: none;
       border-radius: 4px;
@@ -160,6 +161,9 @@ body {
     
       /*  Making ul.menu a Flex container  */
       display: flex;
+      gap: 20px;
+  display: flex;
+   
 }
 
 .kind-social-icon{}
@@ -171,25 +175,25 @@ body {
 /* social link */
 
 .set-icon {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   /* gap: 24px; */
 }
 
 .kind-social-icon {
   width: 44px;
   height: 44px;
-  /* border-radius: 50%;  */
+  border-radius: 10px; 
 }
 
 .social-link-icon {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-color: #00ff00;
+  background-color: #00ff00; */
 
   /* transition: background-color var(--transition-duration) var(--transition-timing-function); */
 }

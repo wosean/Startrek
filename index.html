@@ -14,13 +14,14 @@
     <!-- === FOOTER STARTREK === -->
     <!-- Підвал сторінки -->
     <footer class="footer cont-footer">
-      <!-- <div class="footer-container container flex-footer" > -->
+      <div class="footer-container container flex-footer" >
         <!-- Логотип + iмiдж -->
+
         <!-- Iмідж -->
             <img class="img"
               srcset="
                 ./images/gerl-mob@1x.png,
-                ./images/gerl-mob@1x.png                
+                ./images/gerl-mob@2x.png                
               "
               src="./images/gerl-mob@1x.png"
               alt="the girl and bananas"
@@ -28,21 +29,23 @@
               height="172"
             />
 
-        <!-- Логотип -->
+        <!-- Логотип-icon -->
       <a class=logotype-icon href="">
           <svg class="logo-icon" width="16" height="16">
             <use href="./images/icons.svg#icon-logo"></use>
           </svg> 
+      
+           <!-- Логотип-text -->
           <p class="logo-text">fresh harvest box</p>
       </a>
 
       <!-- Навігація по сайту -->
       <nav class="nav">
-        <ul class="list">
+        <ul class="menu list">
           <!-- ??? Як записати "#HowItWorks", з пробілами  валідатор видає: error ? -->
-          <li><a class="nav-l link" href="#how">How It Works</a></li>
-          <li><a class="nav-l link" href="#fruits">Fruits</a></li>
-          <li><a class="nav-l link" href="#contacts">Contacts</a></li>
+          <li class="item"><a class="link" href="#how">How It Works</a></li>
+          <li class="item"><a class="link" href="#fruits">Fruits</a></li>
+          <li class="item"><a class="link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
 
@@ -93,14 +96,16 @@
         </li>
 
     <!-- Контакти компанії ??? icon TLF & Adr ???-->
-      <div>
+      <div class="contact">
         <section class="contacts section" id="contacts">
-          <!-- <h2 class="title title-light">Contacts</h2> -->
-          <address class="contacts-address">
-            <ul class="contacts-list list">
+        <!-- <h2 class="title" headen>Contacts</h2> -->
+          <div></div>
+             <address class="all-contacts">
 
+            <ul class="contacts-list list">
+              
               <li class="contacts-item">
-                <a class="contacts-link link" href="tel:+380684439426">
+                <a class="contacts-phone link" href="tel:+380684439426">
                   <!-- <svg class="contacts-icon" width="24" height="24">
                     <use href="./images/icons.svg#phone"></use>
                   </svg> -->
@@ -110,7 +115,7 @@
 
               <li class="contacts-item"> 
                 <a
-                  class="contacts-link link"
+                  class="contacts-address link"
                   href="https://goo.gl/maps/1kb9skpQopgPybis5"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -119,14 +124,36 @@
                     <use href="./images/icons.svg#map-pin"></use>
                   </svg> -->
                   1678 S. Pioneer Road <br />
-                  Salt Lake City <br />
-                  UT 84104
+                  Salt Lake City UT <br />
+                  84104
                 </a>
               </li>
 
             </ul>
           </address>
         </section>
+<section>
+  <h2 id="how">How It Works</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
+  <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
+  <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
+
+</section>
+
+<section>
+  <h2 id="fruits">Fruits</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
+  <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
+  <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
+  <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+
+</section>
+        
+
       </div>
     </footer>
   </body>
